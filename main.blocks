@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="sl;CV|@UP}]*bVqBS1^K">coin</variable></variables><block type="pxt-on-start" id="r-MO-eTY!lsra7bK9-wr" x="156" y="50"><statement name="HANDLER"><block type="device_print_message" id="2g2C2GT,FmMFv+fYgGb{"><value name="text"><shadow type="text" id="P1lH.d?P{.#-yJ#`lwIJ"><field name="TEXT">LETS FLIP A COIN!</field></shadow></value></block></statement></block><block type="device_gesture_event" id="%$ykka~lO2`9~7q:Ag.f" x="158" y="234"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="ZVW@6QOae4bim%,t4Fhm"><field name="VAR" id="sl;CV|@UP}]*bVqBS1^K">coin</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="zM/,k^Zg?c#CZMTG-AKa"><value name="min"><shadow type="math_number" id=":O[{]tImiI=sNA(m!YEF"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="ESmMs$2!0lGCjKh-J[6B"><field name="NUM">2</field></shadow></value></block></value><next><block type="controls_if" id="T|IR:BItqX!tfa8%zPyK"><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="{;Z2m=?V%LVS2]|ozV}."><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="grN+*{soc*A-3Z+dvMDs"><field name="VAR" id="sl;CV|@UP}]*bVqBS1^K">coin</field></block></value><value name="B"><shadow type="math_number" id="bkXOc1xZDxWa|r4j7S$H"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="rh;^wN:JmBp4D`*[;}5."><field name="LEDS">`
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # . 
+        . . . . .
+        `</field></block></statement><next><block type="controls_if" id="XX,KJnTW.OZjsMqgBh$x"><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="ahe6nI3l%#m`.C1+[1kb"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="uS)^?i1d,wV*}]%?QW3~"><field name="VAR" id="sl;CV|@UP}]*bVqBS1^K">coin</field></block></value><value name="B"><shadow type="math_number" id="jN#@B~BG#-:%4|ES}sH("><field name="NUM">2</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="~ILk.5qhVY(2]oVgR@Tn"><field name="LEDS">`
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . # 
+        . . . . .
+        `</field></block></statement></block></next></block></next></block></statement></block></xml>
